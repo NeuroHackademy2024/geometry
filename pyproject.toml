@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geometry"
+authors = [
+  { name="Ariel Rokem", email="arokem@gmail.com" },
+]
+
+description = "Calculating geometric things"
+readme = "README.md"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering"
+]
+
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2.2"
+]
+
+version = "0.0.1"
+
+[project.urls]
+Homepage = "https://github.com/arokem/geometry"
+Issues = "https://github.com/arokem/geometry/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["geometry*"]
+exclude = ["tests*"]

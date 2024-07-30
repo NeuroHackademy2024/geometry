@@ -1,0 +1,6 @@
+build/
+.ipynb_checkpoints/
+geometry/geometry.egg-info/
+src/geometry.egg-info/
+src/geometry/__pycache__/
+tests/__pycache__/
