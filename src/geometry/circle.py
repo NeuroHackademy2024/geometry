@@ -35,3 +35,18 @@ def calculate_circ(r):
     """
     circ = 2 * pi * r
     return circ
+
+
+def calculate_diam(r): 
+    """ 
+    Calculate the diameter of a cirlce 
+
+    Parameters 
+    ----------
+    r : float, the radius 
+
+    Returns
+    -------
+    float : the diameter
+    """
+    return 2 * r
