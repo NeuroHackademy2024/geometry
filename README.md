@@ -12,7 +12,3 @@ I changed a README file.
 
 JW: Making more changes.
 
-EK: one more change!!
-
-ML: making another change. 
-
